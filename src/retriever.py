@@ -25,3 +25,6 @@ def load_docs():
 
 def load_store():
     pass
+
+docs = load_docs()
+print(docs[20])
