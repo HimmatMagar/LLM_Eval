@@ -22,8 +22,8 @@ class Pipeline:
 if __name__ == "__main__":
     rag = Pipeline()
     result = rag.invoke(query="What is the difference between an asset and a liability?")
-    print("Query", result['query'])
-    print("Answer", result['answer'])
-    print("Context chunks")
+    print("Query: ", result['query'])
+    print("Answer: ", result['answer'])
+    print("***Context chunks***")
     for i, chunk in enumerate(result['context']):
         print(f". [{i}] {chunk[:120]} ")
