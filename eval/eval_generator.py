@@ -30,10 +30,9 @@ for g in data:
 
     test_cases.append(
         LLMTestCase(
-            input=g['question'],
-            expected_output=g['answer'],
+            input=g['query'],
+            expected_output=answer,
             retrieval_context=context,
-            # actual_output="(generator not evaluate in this run)"
         )
     )
 

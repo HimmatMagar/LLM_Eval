@@ -1,0 +1,101 @@
+[
+    {
+      "id": 1,
+      "query": "How does cash flow reveal the difference between the financial patterns of middle-class and wealthy people?",
+      "ideal_context": "Retrieve Lesson 2's comparison of the income statements and balance sheets. The context should contrast salary income and expenses such as taxes, mortgage, car, credit-card and school-loan payments with income sources such as rental income, dividends, interest and royalties, and assets such as real estate, stocks, bonds, notes and intellectual property. It should explain that cash flow shows how a person handles money.",
+      "page_number": [
+        50,
+        51,
+        52
+      ],
+      "section": "Chapter Two - Lesson 2"
+    },
+    {
+      "id": 2,
+      "query": "Why does the author challenge the idea that owning a home automatically makes someone financially secure?",
+      "ideal_context": "Retrieve the discussion of the financial consequences of owning an expensive home. The context should explain that a home can create ongoing expenses and tie up money that could otherwise be invested. Include the author's three effects: loss of time for other assets to grow, loss of capital available for investment, and loss of investment education or experience. Also preserve his clarification that he is not saying people should never buy a house.",
+      "page_number": [
+        61,
+        62,
+        63
+      ],
+      "section": "Chapter Two - Lesson 2"
+    },
+    {
+      "id": 3,
+      "query": "What does the book mean when it describes the middle class as being caught in the Rat Race?",
+      "ideal_context": "Retrieve the explanation of the middle-class cash-flow pattern: salary as the primary income, expenses rising along with salary, higher taxes as wages increase, and treating the home as the primary asset instead of investing in income-producing assets. The context should connect this pattern to the author's description of the Rat Race.",
+      "page_number": [
+        55,
+        65
+      ],
+      "section": "Chapter Two - Lesson 2"
+    },
+    {
+      "id": 4,
+      "query": "According to the author, what can prevent a person's financial genius from being expressed?",
+      "ideal_context": "Retrieve Lesson 5's discussion of self-doubt, fear and courage. The passage should explain that people may have potential and technical knowledge but hesitate to act because of fear and lack of self-confidence. Include the author's view that financial intelligence requires both technical knowledge and courage, and that developing it can provide more options.",
+      "page_number": [
+        91,
+        92
+      ],
+      "section": "Chapter Five - Lesson 5"
+    },
+    {
+      "id": 5,
+      "query": "How does the author illustrate the idea that people can create money through an investment opportunity?",
+      "ideal_context": "Retrieve the Portland real-estate example in Lesson 5. Describe how the author found a property for sale during difficult market conditions, arranged its purchase, advertised it to potential buyers, and used a buyer's promissory note as part of the transaction. Explain how he presents the note as an asset and uses the example to illustrate what he means by inventing money.",
+      "page_number": [
+        99,
+        100
+      ],
+      "section": "Chapter Five - Lesson 5"
+    },
+    {
+      "id": 6,
+      "query": "Why does the author say financial intelligence must continue developing as markets and economies change?",
+      "ideal_context": "Retrieve Lesson 5's discussion of changing markets, economic booms and crashes, and continued learning. Explain that investments and market conditions change, opportunities may be overlooked, and financial intelligence helps a person respond to change and recognize opportunities rather than cling to the past.",
+      "page_number": [
+        104,
+        105
+      ],
+      "section": "Chapter Five - Lesson 5"
+    },
+    {
+      "id": 7,
+      "query": "What lesson does the McDonald's hamburger example teach about business success?",
+      "ideal_context": "Retrieve the Lesson 6 passage where the author asks whether students can make a better hamburger than McDonald's and then asks why McDonald's makes more money. The ideal context should state the author's answer: McDonald's is excellent at business systems. Explain the contrast between being talented at making a product and understanding the systems needed to operate a business.",
+      "page_number": [
+        123
+      ],
+      "section": "Chapter Six - Lesson 6"
+    },
+    {
+      "id": 8,
+      "query": "Why does the author warn that highly specialized skills may not transfer easily between industries?",
+      "ideal_context": "Retrieve Lesson 6's discussion of specialization and transferable skills. Explain that a skill valuable in one industry may have limited value in another. Include the author's example of an experienced airline pilot who might struggle to find an equivalent-paying role outside the airline industry, along with his discussion of unions protecting specialized workers.",
+      "page_number": [
+        123
+      ],
+      "section": "Chapter Six - Lesson 6"
+    },
+    {
+      "id": 9,
+      "query": "What does the author recommend to people who want to increase their income while developing new abilities?",
+      "ideal_context": "Retrieve Lesson 6's recommendation to take a long-term view and consider a second job that teaches another skill. Mention his suggestion of learning sales through a second job or a network-marketing company, and that training may help people overcome fear of failure and rejection. Preserve his emphasis on the long-term value of education and skill development.",
+      "page_number": [
+        121,
+        122
+      ],
+      "section": "Chapter Six - Lesson 6"
+    },
+    {
+      "id": 10,
+      "query": "How does the author distinguish between earned income, passive income and portfolio income?",
+      "ideal_context": "Retrieve the book's explanation of the three income categories and its argument about converting earned income into passive or portfolio income. The context should identify earned income as money received from working, passive income as income associated in the book with assets such as real estate, and portfolio income as income from investments such as stocks. Include the author's view that converting earned income into passive and portfolio income is central to financial freedom.",
+      "page_number": [
+        176
+      ],
+      "section": "Final Thoughts"
+    }
+  ]
