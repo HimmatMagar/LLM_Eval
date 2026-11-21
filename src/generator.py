@@ -31,9 +31,6 @@ def ask(question: str, context: list[str]):
     context = "\n\n".join(context)
     return chain.invoke({"question": question, "context": context})
 
-ans = ask("What is the difference between an asset and a liability?")
-print(ans)
-
 # if __name__ == "__main__":
 #     while True:
 #         q = input("\nAsk a question (or 'exit'): ")
