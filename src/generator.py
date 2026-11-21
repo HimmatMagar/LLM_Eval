@@ -9,13 +9,7 @@ retriever = build_retriever()
 
 llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite")
 
-output = StrOutputParser()
-
-def ask(question):
-    docs = retriever.invoke(question)
-    context = "\n\n".join(d.page_content for d in docs)
-
-    prompt = ChatPromptTemplate.from_messages([
+prompt = ChatPromptTemplate.from_messages([
         (
             'system',
             """
@@ -26,12 +20,16 @@ def ask(question):
             """
         ),
         (
-            "Human",
+            "human",
             "Question: {question}"
         )
     ])
 
-    return llm.invoke(prompt).content
+chain = prompt | llm | StrOutputParser()
+
+def ask(question: str, context: list[str]):
+    context = "\n\n".join(context)
+    return chain.invoke({"question": question, "context": context})
 
 ans = ask("What is the difference between an asset and a liability?")
 print(ans)
