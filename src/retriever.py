@@ -46,18 +46,8 @@ def load_store():
         chunk_overlap=60,
     ).split_documents(docs)
 
-    cleaned_docs = []
-    for doc in chunks:
-        text = doc.page_content if hasattr(doc, "page_content") else str(doc)
-        text = text.strip().replace("\x00", "")
-        if not text:
-            continue
-        # Preserve original metadata if present
-        metadata = doc.metadata if hasattr(doc, "metadata") else {}
-        cleaned_docs.append(Document(page_content=text, metadata=metadata))
-
     # Then pass in the cleaned list
-    return Chroma.from_documents(cleaned_docs, embedding, persist_directory=DB_DIR)
+    return Chroma.from_documents(chunks, embedding, persist_directory=DB_DIR)
 
 
 def build_retriever():
@@ -68,7 +58,7 @@ if __name__ == "__main__":
 
     retriever = build_retriever()
 
-    results = retriever.invoke("what is Deep Learning?")
+    results = retriever.invoke("Who is the author of Rich Dad Poor Dad?")
     
     for r in results:
         print(f"[Page {r.metadata['page_label']}] {r.page_content[:150]}...\n")
