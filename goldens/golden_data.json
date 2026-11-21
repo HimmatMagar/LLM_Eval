@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "question": "What is the central difference between the financial beliefs of the rich dad and the poor dad?",
+      "answer": "The poor dad generally believed in studying hard to obtain a secure job and working for money. The rich dad emphasized learning how money works and building ways for money to work for oneself.",
+      "page_number": [
+        3,
+        4,
+        5
+      ],
+      "section": "Introduction"
+    },
+    {
+      "id": 2,
+      "question": "Why does the author say that financial education is important?",
+      "answer": "The author explains that schools teach scholastic and professional skills but generally do not teach financial skills. Without understanding how money works, people may earn good incomes yet continue to struggle financially.",
+      "page_number": [
+        2,
+        7
+      ],
+      "section": "Introduction"
+    },
+    {
+      "id": 3,
+      "question": "What is the main lesson in Lesson 1, 'The Rich Don't Work for Money'?",
+      "answer": "The poor and middle class work for money, while the rich have money work for them. The lesson encourages people to learn how to make money work for them rather than relying only on wages.",
+      "page_number": [
+        9,
+        22,
+        23
+      ],
+      "section": "Chapter One - Lesson 1"
+    },
+    {
+      "id": 4,
+      "question": "What question does rich dad encourage Robert to ask instead of saying, 'I can't afford it'?",
+      "answer": "Rich dad encourages him to ask, 'How can I afford it?' The author explains that this question makes a person think and search for possibilities, whereas saying 'I can't afford it' can stop that thinking.",
+      "page_number": [
+        3
+      ],
+      "section": "Introduction"
+    },
+    {
+      "id": 5,
+      "question": "According to Lesson 2, what is the difference between an asset and a liability?",
+      "answer": "In the book's explanation, an asset puts money into a person's pocket, while a liability takes money out of a person's pocket. The author advises readers to understand this distinction and focus on acquiring income-generating assets.",
+      "page_number": [
+        48,
+        66
+      ],
+      "section": "Chapter Two - Lesson 2"
+    },
+    {
+      "id": 6,
+      "question": "What does the author mean by 'Mind Your Own Business' in Lesson 3?",
+      "answer": "He means building and maintaining one's asset column rather than focusing only on earning a larger paycheck. He advises keeping a job if needed while using income to acquire real assets and keeping liabilities and expenses down.",
+      "page_number": [
+        71,
+        76,
+        77
+      ],
+      "section": "Chapter Three - Lesson 3"
+    },
+    {
+      "id": 7,
+      "question": "What four areas of expertise does the book identify as the foundation of financial intelligence?",
+      "answer": "The four areas are accounting, investing, understanding markets, and the law. The book describes accounting as financial literacy, investing as the science of making money make money, understanding markets as knowledge of supply and demand, and the law as including knowledge of legal structures and their benefits.",
+      "page_number": [
+        88,
+        89
+      ],
+      "section": "Chapter Four - Lesson 4"
+    },
+    {
+      "id": 8,
+      "question": "According to Lesson 4, what advantages of corporations does rich dad discuss?",
+      "answer": "The book discusses tax advantages and protection from lawsuits. It explains that corporations can pay certain legitimate business expenses before taxes and can provide legal structures that help protect assets. The book presents these as concepts to understand, not as individualized legal or tax advice.",
+      "page_number": [
+        88,
+        89,
+        90
+      ],
+      "section": "Chapter Four - Lesson 4"
+    },
+    {
+      "id": 9,
+      "question": "What does the statement 'The rich invent money' mean in Lesson 5?",
+      "answer": "The lesson describes how financially intelligent people recognize and act on opportunities. The author emphasizes developing financial intelligence, understanding investments, and being able to see possibilities that others may overlook. The chapter illustrates this with examples of finding opportunities in changing market conditions.",
+      "page_number": [
+        91,
+        104,
+        105
+      ],
+      "section": "Chapter Five - Lesson 5"
+    },
+    {
+      "id": 10,
+      "question": "What is the message of Lesson 6, 'Work to Learn—Don't Work for Money'?",
+      "answer": "The author encourages people to work to develop useful skills rather than choosing work only for a paycheck. He emphasizes learning skills that can transfer across situations, including communication, sales, marketing, and understanding business systems.",
+      "page_number": [
+        115,
+        116,
+        123
+      ],
+      "section": "Chapter Six - Lesson 6"
+    }
+  ]

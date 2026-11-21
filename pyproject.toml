@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "deepeval>=4.3.4",
+    "fonttools>=4.68.0",
     "langchain>=1.5.2",
     "langchain-chroma>=1.1.0",
     "langchain-community>=0.4.2",
