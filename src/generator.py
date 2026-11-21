@@ -3,24 +3,33 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 from retriever import build_retriever
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
 
 retriever = build_retriever()
 
 llm = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite")
 
+output = StrOutputParser()
 
 def ask(question):
     docs = retriever.invoke(question)
     context = "\n\n".join(d.page_content for d in docs)
 
-    prompt = f"""Answer the question using only the context below.
-        If the answer is not in the context, say "I don't know".
+    prompt = ChatPromptTemplate.from_messages([
+        (
+            'system',
+            """
+            Answer the question using only the context below.
+            If the answer is not in the context, say "I don't know".
 
-        Context:
-        {context}
-
-        Question: {question}
-    Answer:"""
+            Context: {context}
+            """
+        ),
+        (
+            "Human",
+            "Question: {question}"
+        )
+    ])
 
     return llm.invoke(prompt).content
 
