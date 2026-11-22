@@ -34,7 +34,7 @@ for g in data:
 
 
 correctness = GEval(
-    name="Correctness",
+    name="correctness",
     # evaluation_steps=[
     #     "Compare the actual output against the key facts in expected output",
 
@@ -50,4 +50,21 @@ correctness = GEval(
     strict_mode=False
 )
 
-evaluate(test_cases=test_cases, metrics=[correctness])
+completeness = GEval(
+    name="completeness",
+    # evaluation_steps=[
+    #     "Compare the actual output against the key facts in expected output",
+
+    # ],
+    criteria="Determin whether the actual output is factually based on the expected output",
+    evaluation_params=[
+        LLMTestCaseParams.INPUT,
+        LLMTestCaseParams.ACTUAL_OUTPUT,
+        LLMTestCaseParams.EXPECTED_OUTPUT
+    ],
+    threshold=THRESHOLD,
+    model= JUDGE_MODEL,
+    strict_mode=False
+)
+
+evaluate(test_cases=test_cases, metrics=[correctness, completeness])
